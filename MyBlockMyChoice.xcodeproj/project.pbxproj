@@ -78,16 +78,30 @@
 		984B9D8E2F1B3316009D27C3 /* Exceptions for "MyBlockMyChoice" folder in "ShieldActionExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				BlockManager.swift,
-				"UIColor+Extensions.swift",
+				Core/BlockManager.swift,
+				"Extensions/ShieldActionResponse+Extensions.swift",
+				"Extensions/UIBlurEffect+Extensions.swift",
+				"Extensions/UIColor+Extensions.swift",
+				Models/RGBAColor.swift,
+				Models/ShieldAppearanceConfiguration.swift,
+				Models/ShieldButtonConfiguration.swift,
+				Models/ShieldLabelConfiguration.swift,
+				Models/TransferableImage.swift,
 			);
 			target = 984B9D332F1B29D0009D27C3 /* ShieldActionExtension */;
 		};
 		984B9D8F2F1B3316009D27C3 /* Exceptions for "MyBlockMyChoice" folder in "ShieldConfigurationExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				BlockManager.swift,
-				"UIColor+Extensions.swift",
+				Core/BlockManager.swift,
+				"Extensions/ShieldActionResponse+Extensions.swift",
+				"Extensions/UIBlurEffect+Extensions.swift",
+				"Extensions/UIColor+Extensions.swift",
+				Models/RGBAColor.swift,
+				Models/ShieldAppearanceConfiguration.swift,
+				Models/ShieldButtonConfiguration.swift,
+				Models/ShieldLabelConfiguration.swift,
+				Models/TransferableImage.swift,
 			);
 			target = 984B9D482F1B29DC009D27C3 /* ShieldConfigurationExtension */;
 		};
@@ -108,6 +122,11 @@
 				984B9D552F1B29DC009D27C3 /* Exceptions for "ShieldConfigurationExtension" folder in "ShieldConfigurationExtension" target */,
 			);
 			path = ShieldConfigurationExtension;
+			sourceTree = "<group>";
+		};
+		984B9DBA2F1B3D81009D27C3 /* DocumentAssets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DocumentAssets;
 			sourceTree = "<group>";
 		};
 		986961422F1AFCA400D3B209 /* MyBlockMyChoice */ = {
@@ -161,6 +180,7 @@
 		986961372F1AFCA400D3B209 = {
 			isa = PBXGroup;
 			children = (
+				984B9DBA2F1B3D81009D27C3 /* DocumentAssets */,
 				984B9D962F1B3813009D27C3 /* LICENSE.md */,
 				984B9D942F1B37D0009D27C3 /* privacy.html */,
 				984B9D922F1B3692009D27C3 /* README.md */,
@@ -245,6 +265,7 @@
 				984B9D532F1B29DC009D27C3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				984B9DBA2F1B3D81009D27C3 /* DocumentAssets */,
 				986961422F1AFCA400D3B209 /* MyBlockMyChoice */,
 			);
 			name = MyBlockMyChoice;
@@ -603,7 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MyBlockMyChoice/MyBlockMyChoice.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyBlockMyChoice/App/MyBlockMyChoice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
@@ -636,7 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MyBlockMyChoice/MyBlockMyChoice.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyBlockMyChoice/App/MyBlockMyChoice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NLTYK5T6U3;
