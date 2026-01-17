@@ -12,6 +12,7 @@
 		984B9D4A2F1B29DC009D27C3 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984B9D362F1B29D0009D27C3 /* ManagedSettings.framework */; };
 		984B9D4C2F1B29DC009D27C3 /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984B9D4B2F1B29DC009D27C3 /* ManagedSettingsUI.framework */; };
 		984B9D542F1B29DC009D27C3 /* ShieldConfigurationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 984B9D492F1B29DC009D27C3 /* ShieldConfigurationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		984B9D932F1B3692009D27C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 984B9D922F1B3692009D27C3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		984B9D362F1B29D0009D27C3 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
 		984B9D492F1B29DC009D27C3 /* ShieldConfigurationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldConfigurationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		984B9D4B2F1B29DC009D27C3 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		984B9D922F1B3692009D27C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		986961402F1AFCA400D3B209 /* MyBlockMyChoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBlockMyChoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 		986961372F1AFCA400D3B209 = {
 			isa = PBXGroup;
 			children = (
+				984B9D922F1B3692009D27C3 /* README.md */,
 				986961422F1AFCA400D3B209 /* MyBlockMyChoice */,
 				984B9D382F1B29D1009D27C3 /* ShieldActionExtension */,
 				984B9D4D2F1B29DC009D27C3 /* ShieldConfigurationExtension */,
@@ -306,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984B9D932F1B3692009D27C3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
