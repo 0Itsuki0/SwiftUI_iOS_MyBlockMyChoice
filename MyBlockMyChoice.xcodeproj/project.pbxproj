@@ -14,6 +14,7 @@
 		984B9D542F1B29DC009D27C3 /* ShieldConfigurationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 984B9D492F1B29DC009D27C3 /* ShieldConfigurationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		984B9D932F1B3692009D27C3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 984B9D922F1B3692009D27C3 /* README.md */; };
 		984B9D952F1B37D0009D27C3 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 984B9D942F1B37D0009D27C3 /* privacy.html */; };
+		984B9D972F1B3813009D27C3 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 984B9D962F1B3813009D27C3 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		984B9D4B2F1B29DC009D27C3 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
 		984B9D922F1B3692009D27C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		984B9D942F1B37D0009D27C3 /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		984B9D962F1B3813009D27C3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		986961402F1AFCA400D3B209 /* MyBlockMyChoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBlockMyChoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,6 +161,7 @@
 		986961372F1AFCA400D3B209 = {
 			isa = PBXGroup;
 			children = (
+				984B9D962F1B3813009D27C3 /* LICENSE.md */,
 				984B9D942F1B37D0009D27C3 /* privacy.html */,
 				984B9D922F1B3692009D27C3 /* README.md */,
 				986961422F1AFCA400D3B209 /* MyBlockMyChoice */,
@@ -312,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984B9D972F1B3813009D27C3 /* LICENSE.md in Resources */,
 				984B9D932F1B3692009D27C3 /* README.md in Resources */,
 				984B9D952F1B37D0009D27C3 /* privacy.html in Resources */,
 			);
