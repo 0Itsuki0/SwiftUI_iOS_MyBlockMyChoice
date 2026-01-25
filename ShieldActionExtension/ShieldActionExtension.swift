@@ -43,7 +43,6 @@ class ShieldActionExtension: ShieldActionDelegate {
                 manager.removeRestrictions()
             }
             completionHandler(secondaryButton.action)
-
         @unknown default:
             fatalError()
         }

@@ -7,7 +7,7 @@
 		<key>MyBlockMyChoice.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ShieldActionExtension.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +17,25 @@
 		<key>ShieldConfigurationExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>984B9D332F1B29D0009D27C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>984B9D482F1B29DC009D27C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9869613F2F1AFCA400D3B209</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

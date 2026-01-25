@@ -3,6 +3,11 @@
 A screen time app that allows the user to design their own blocking shield,
 aiming at helping the user to focus.
 
+## Download
+
+The app is available on [App Store])(https://apps.apple.com/us/app/myblockmychoice/id6757941034).
+
+
 ## Basic Functionalities
 
 This app allows the user to
