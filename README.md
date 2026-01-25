@@ -5,7 +5,7 @@ aiming at helping the user to focus.
 
 ## Download
 
-The app is available on [App Store])(https://apps.apple.com/us/app/myblockmychoice/id6757941034).
+The app is available on [App Store](https://apps.apple.com/us/app/myblockmychoice/id6757941034).
 
 
 ## Basic Functionalities
